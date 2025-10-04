@@ -80,3 +80,17 @@
     * Changes Made: 
       Changed the sample run and exaple to check Evaluator's response upon dissimilar outputs.
       Added extra Sample Inputs and outputs to Evaluate my answer.
+
+ * Lesson-03: Experiments
+    * Summary:
+      I learnt how to use LangSmith to run comparative evaluations on different versions of
+      your LLM application against a single dataset. You learn how to systematically test changes (like
+      prompt tweaks or model swaps) and use the platform's features to analyze the results from various
+      evaluators, allowing you to quickly determine which version performs best.
+    * Source File: https://github.com/langchain-ai/intro-to-langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_2/experiments.ipynb
+    * Changes Made: 
+      Changed Data Set Name.
+      Changed Dataset Name to mine in Notebook.
+      Tagged the initial version of Dataset in Langsmith.
+      Typed Example ids accordingly to the ones displayed in Datasets Upload code.
+      Added Crucial Examples split in Dataset.
