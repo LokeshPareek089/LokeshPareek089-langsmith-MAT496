@@ -22,3 +22,18 @@
       Avoided mutating the input list by creating a new list when adding the assistant's suggestion.
       Wrapped the chat model call in a try/except block to catch and print errors with clear messages.
       Improved robustness and error handling for Groq API calls in the notebook.
+
+  * Lesson-03: Alternative Ways to Trace
+    * Summary:This video teaches alternative  methods for tracing in LangSmith beyond setting environment
+      variables. It focuses on achieving selective observability by manually passing a LangChainTracer
+      as a callback or using the tracing_context manager to trace specific code blocks.
+    * Source File: https://github.com/langchain-ai/intro-to-langsmith/blob/main/notebooks/module_1/alternative_tracing_methods.ipynb
+    * Changes Made:
+      Added a function to check for internet connectivity before making API calls, preventing
+      unnecessary errors if offline.
+      Provided user-friendly, visually distinct messages for different error types (no internet,
+      connection error, HTTP error, unexpected error).
+      Used emoji icons (✅, ❌, 🚫, 🌐) to make feedback more engaging and clear.
+      Ensured that all exceptions are caught and explained, not just shown as raw tracebacks.
+      Clearly separated success and error output, making it easier to understand what happened during
+      execution.
