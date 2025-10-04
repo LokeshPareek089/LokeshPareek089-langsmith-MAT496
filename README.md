@@ -37,3 +37,23 @@
       Ensured that all exceptions are caught and explained, not just shown as raw tracebacks.
       Clearly separated success and error output, making it easier to understand what happened during
       execution.
+
+  * Lesson-04: Conversational Threads
+    * Summary: The video teaches us how to use LangSmith to group sequential agent "runs" into a single
+      conversation thread. This is achieved by adding a unique identifier (like a session_id) to the
+      metadata of each run. This feature is crucial for debugging, evaluating, and tracking
+      conversation memory in multi-turn chatbot applications.
+    * Souce File: https://github.com/langchain-ai/intro-to-langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_1/conversational_threads.ipynb
+    * Changes Made:
+      Random Emoji in System Prompt:
+        Each system prompt now includes a randomly selected emoji for a more engaging and playful
+        assistant experience.
+      Creative and Informative Print Statements:
+      Added print statements throughout the retrieval and generation process to provide clear, fun, and
+        informative feedback about what the code is doing.
+      Creative Question Prompts:
+        The questions in the last two code cells were updated to be more imaginative and open-ended,
+        encouraging creative responses.
+      Emojis in Output Display:
+        The answers are printed with relevant emojis (e.g., 📈, 🎨) to make the output visually
+        appealing and thematic.
