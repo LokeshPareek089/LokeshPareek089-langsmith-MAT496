@@ -57,3 +57,15 @@
       Emojis in Output Display:
         The answers are printed with relevant emojis (e.g., 📈, 🎨) to make the output visually
         appealing and thematic.
+
+## Module 2:
+ * Lesson-01: Dataset Upload
+    * Summary: 
+      I learnt how to use LangSmith to create and manage datasets, which are essential for testing and
+      evaluating LLM applications. It covers methods for constructing these datasets by either manually
+      curating examples or automatically capturing high value traces from your production application
+      runs. These structured datasets allow for repeatable, consistent performance testing.
+    * Source File: https://github.com/langchain-ai/intro-to-langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_2/dataset_upload.ipynb
+    * Changes Made:
+      Changed Input Examples to Fundamentals of LLM.
+      Added question cells related to the input examples.
