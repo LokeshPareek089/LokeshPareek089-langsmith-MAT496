@@ -69,3 +69,14 @@
     * Changes Made:
       Changed Input Examples to Fundamentals of LLM.
       Added question cells related to the input examples.
+
+ * Lesson-02: Evaluators
+    * Summary: 
+      We learn the concept of Evaluators in LangSmith as the functions used to score and measure the
+      performance of your LLM application outputs. It explains how to define and run different types
+      of evaluators—including LLM-as-a-judge and custom code functions—against your datasets to
+      quantitatively assess metrics like correctness, relevance, and adherence to specific criteria.
+    * Source File: https://github.com/langchain-ai/intro-to-langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_2/evaluators.ipynb
+    * Changes Made: 
+      Changed the sample run and exaple to check Evaluator's response upon dissimilar outputs.
+      Added extra Sample Inputs and outputs to Evaluate my answer.
