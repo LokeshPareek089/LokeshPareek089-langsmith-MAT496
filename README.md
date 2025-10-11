@@ -97,7 +97,7 @@
 
 ## Module 3:
  * Lesson 1: Playground Experiments
-    * Summary:
+   * Summary:
       I learnt how to use Playground in Langsmith, to quickly iterate between prompts templates,
       instead of hardcoded promts.
       Easily compare different LLMs using Playground in Langsmith over a dataset.
@@ -105,4 +105,15 @@
    * Changes Made:
      Changed questions to bit more philosophical ones.
      Changed Dataset name in notebook to Sentience.
-     Changed Temperature in Playground Prompt settings to Max.
+     Changed Temperature in Playground Prompt settings to max.
+     <img width="3199" height="1851" alt="Screenshot 2025-10-11 170624" src="https://github.com/user-attachments/assets/8a814943-1a90-478b-81ba-ab439135db77" />
+
+ *Lesson 2: Prompt Hub
+   * Summary:
+     Learnt how to use Langsmith Promt Hub for easy access of versions of Prompts created in Playground.
+     Output schema defining the expected structure of a model's response.
+   * Source File: https://github.com/langchain-ai/intro-to-langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_3/prompt_hub.ipynb
+   * Changes Made:
+     Created a Scientist turned Philosopher prompt in Langsmith using Prompt Hub.
+     Created another ancient version of it, set in year 1000 AD.
+     Changed questions to match the philosophical vibe.
