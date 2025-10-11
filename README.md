@@ -89,8 +89,20 @@
       evaluators, allowing you to quickly determine which version performs best.
     * Source File: https://github.com/langchain-ai/intro-to-langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_2/experiments.ipynb
     * Changes Made: 
-      Changed Data Set Name.
+      Changed Data Set Name in Langsmith.
       Changed Dataset Name to mine in Notebook.
       Tagged the initial version of Dataset in Langsmith.
       Typed Example ids accordingly to the ones displayed in Datasets Upload code.
       Added Crucial Examples split in Dataset.
+
+## Module 3:
+ * Lesson 1: Playground Experiments
+    * Summary:
+      I learnt how to use Playground in Langsmith, to quickly iterate between prompts templates,
+      instead of hardcoded promts.
+      Easily compare different LLMs using Playground in Langsmith over a dataset.
+   * Source File: https://github.com/langchain-ai/intro-to-langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_3/playground_experiments.ipynb
+   * Changes Made:
+     Changed questions to bit more philosophical ones.
+     Changed Dataset name in notebook to Sentience.
+     Changed Temperature in Playground Prompt settings to Max.
