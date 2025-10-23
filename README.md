@@ -127,4 +127,7 @@
      Changed Questions in the Dataset to those similar to Existence, Conciousness & Reality.
      Changed Prompt from Assistant to a Philosopher.
      Updated RAG Application's code from Hardcoded prompt to one that is connected to PrompHub.
-      
+
+ * Lesson 4: Prompt Canvas
+   * Summary:
+     I learnt how to modify Prompts easily with an AI assistant using Prompt Canvas.
